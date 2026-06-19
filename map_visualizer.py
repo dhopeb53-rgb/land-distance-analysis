@@ -92,7 +92,7 @@ class MapVisualizer:
             color=color,
             weight=2,
             opacity=0.8,
-            dash_array="4, 4" if color == "red" else None,
+            dash_array="4, 4" if color in ["red", "purple"] else None,
             tooltip=f"{name} - {distance_km:.2f} km"
         ).add_to(self.map)
 
@@ -104,7 +104,8 @@ class MapVisualizer:
         color_hex_map = {
             "green": "#2ca02c",   # 선명한 초록
             "orange": "#ff7f0e",  # 선명한 주황
-            "red": "#d62728"      # 선명한 빨강
+            "red": "#d62728",     # 선명한 빨강
+            "purple": "#9467bd"   # 선명한 보라
         }
         border_color = color_hex_map.get(color, color)
 
