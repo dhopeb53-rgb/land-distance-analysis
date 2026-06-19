@@ -49,5 +49,7 @@ class DistanceCalculator:
             return "green"
         elif distance_km <= 10.0:
             return "orange"
-        else:
+        elif distance_km <= 30.0:
             return "red"
+        else:
+            return "purple"
