@@ -412,10 +412,11 @@ if run_analysis:
                                         <span style="color: #7F7F7F;">⚫ 30km</span>
                                     </div>
                                     <div style="margin-top: 5px;">
-                                        <strong>🛣️ 직선 연결선 색상 (거리 구분):</strong><br>
-                                        <span style="color: #2ca02c; font-weight: bold;">🟢 초록색</span>: 3km 이하 (인접) <br>
-                                        <span style="color: #ff7f0e; font-weight: bold;">🟠 주황색</span>: 3km 초과 ~ 10km 이하 (중거리) <br>
-                                        <span style="color: #d62728; font-weight: bold;">🔴 빨간색 (점선)</span>: 10km 초과 (원거리)
+                                         <strong>🛣️ 직선 연결선 색상 (거리 구분):</strong><br>
+                                         <span style="color: #2ca02c; font-weight: bold;">🟢 초록색</span>: 3km 이하 (인접) <br>
+                                         <span style="color: #ff7f0e; font-weight: bold;">🟠 주황색</span>: 3km 초과 ~ 10km 이하 (중거리) <br>
+                                         <span style="color: #d62728; font-weight: bold;">🔴 빨간색 (점선)</span>: 10km 초과 ~ 30km 이하 (원거리) <br>
+                                         <span style="color: #9467bd; font-weight: bold;">🟣 보라색 (점선)</span>: 30km 초과 (초원거리)
                                     </div>
                                 </div>
                             </div>
